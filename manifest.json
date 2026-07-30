@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "V2EX Bookmark Exporter",
+  "version": "1.0.0",
+  "description": "将 V2EX 收藏帖子增量备份到 Chrome 书签。",
+  "permissions": ["bookmarks"],
+  "host_permissions": ["*://*.v2ex.com/*"],
+  "action": {
+    "default_title": "V2EX 收藏备份",
+    "default_popup": "popup.html"
+  }
+}

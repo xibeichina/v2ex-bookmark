@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V2EX 收藏备份</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <div class="mark" aria-hidden="true">V</div>
+        <div>
+          <h1>V2EX 收藏备份</h1>
+          <p>增量同步到浏览器书签</p>
+        </div>
+      </header>
+
+      <section class="status-panel" aria-live="polite">
+        <div class="status-line">
+          <span id="statusIcon" class="status-icon idle" aria-hidden="true"></span>
+          <span id="statusText">准备就绪</span>
+        </div>
+        <div class="progress-track" aria-hidden="true">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <p id="detailText" class="detail">同步前请确认已在此浏览器登录 V2EX。</p>
+      </section>
+
+      <button id="syncButton" class="sync-button" type="button">
+        开始同步
+      </button>
+
+      <p class="footnote">书签将保存到“V2EX 备份收藏”文件夹</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
