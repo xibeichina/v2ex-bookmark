@@ -83,7 +83,19 @@ h1 { margin: 0; font-size: 17px; line-height: 24px; font-weight: 700; }
 
 .sync-button:hover:not(:disabled) { background: #1d4ed8; }
 .sync-button:disabled { cursor: wait; opacity: .6; }
-.footnote { margin: auto 0 0; text-align: center; color: #94a3b8; font-size: 11px; line-height: 16px; }
+.footnote {
+  margin: auto 0 0;
+  padding: 8px 10px;
+  border: 1px solid #dbeafe;
+  border-radius: 6px;
+  background: #eff6ff;
+  color: #475569;
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.footnote strong { color: #1d4ed8; font-weight: 700; }
 
 @keyframes pulse { 50% { opacity: .35; } }
 
@@ -92,5 +104,6 @@ h1 { margin: 0; font-size: 17px; line-height: 24px; font-weight: 700; }
   .header p, .detail { color: #94a3b8; }
   .status-panel { border-color: #334155; background: #1e293b; }
   .progress-track { background: #334155; }
-  .footnote { color: #64748b; }
+  .footnote { border-color: #1e3a5f; background: #172554; color: #cbd5e1; }
+  .footnote strong { color: #93c5fd; }
 }
