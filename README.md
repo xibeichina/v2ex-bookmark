@@ -38,7 +38,3 @@ V2EX 账号突然被 Ban？几十页精心收藏的技术贴瞬间灰飞烟灭�
 
 本项目采用纯原生 **Vanilla JS + HTML + CSS** 以及最新的 **Manifest V3** 规范开发。
 没有引入任何复杂的打包工具和前端框架，主打一个轻量、透明、即拿即用。
-
-## 📄 License
-
-[MIT License](LICENSE). 
